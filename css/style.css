@@ -1,0 +1,91 @@
+*{margin: 0; padding: 0;}
+a{text-decoration: none; color: black;}
+ul{list-style: none;}
+
+body{font-size: 13px;
+    line-height: 22px;
+    font-family: '나눔고딕';
+    color: rgb(16, 16, 16);
+}
+
+/* 탑 */
+.top{width: 1200px; margin: 0 auto; height: 45px;}
+.link1{float: right;}
+.link1 li{float: left;}
+.link1 li a{display: block; color: gray; padding-left: 20px; padding-top: 11px;}
+.link1 li a:hover{color: #ccc;}
+
+/* 로고 */
+.logo{width: 1200px; display: flex; margin: 0 auto; justify-content: center; height: 130px;}
+.logo a{padding:0 20px;}
+
+/* 헤더 */
+
+.header{
+    width:100%;
+    height:60px; /*수정*/
+    font-size:20px;
+    box-sizing:border-box;
+	border-bottom: 1px solid #ccc;
+	text-align:center;
+    margin:0 auto;
+    position:relative;}
+
+.main_nav >ul{overflow:hidden; width:1200px; margin: 0px auto; text-align: center;}
+
+.main_nav >ul> li> a{display:block; color:black;padding:15px 0px; font-weight: 600; font-size:18px; text-align:center;}
+
+
+/* 헤더 끝 */
+
+/* 본문 시작 */
+
+.banner{width: 100%; text-align: center; height: 250px; margin: 20px 0; }
+
+.lnb{width: 100%; margin: 0 auto; height: 40px; display: flex; justify-content: center; border-bottom: 1px solid #ccc;}
+
+.lnb li a{display: block; font-size: 17px; color: gray; padding: 0 20px;}
+.lnb li a:hover{color: #ccc;}
+
+.lnb li:nth-child(2){border-left: #ccc 1px solid; border-right: 1px #ccc solid;  margin-bottom: 15px;}
+.lnb li:nth-child(3){ border-right: 1px #ccc solid;  margin-bottom: 15px;}
+
+.text1{width: 1200px; height: 340px; margin: 0 auto; margin-top: 100px; padding: 70px; box-sizing: border-box;}
+.text1 img{float: left; padding-right: 20px; padding-top: 20px;}
+.text1 h1{float: left;  font-size: 25px; padding-right: 100px; padding-top: 15px;}
+.text1 p{float: left; font-size: 16px; line-height: 50px;}
+
+.text2{width: 1200px; height: 1000px; margin: 0 auto; padding: 70px; box-sizing: border-box;}
+
+.text2 img{float: left; padding-right: 20px; padding-top: 10px;}
+.text2 h1{float: left;  font-size: 25px; padding-right: 122px; padding-top: 5px;}
+.text2_inner{float: left; }
+.text2_inner p{font-size: 16px; line-height: 25px;}
+
+
+/* 풋터 */
+
+.fotter{width: 100%; height: 500px; border-top: 1px solid #ccc;}
+.fotter_inner{width: 1200px; margin: 0 auto; height: 500px;  position: relative;}
+
+
+.link2{position: absolute; top: 20px; left: 0%; width: 900px; text-align: center;} 
+.link2_inner{float: left; padding:  10px 0px; box-sizing: border-box; width: 176px; height: 212px; border-right: 1px dotted #ccc;}
+.link2_inner a{ display: block; color: gray;}
+.link2_inner a:hover{color: #ccc;}
+.word1{font-size: 17px; font-weight: bold;}
+
+
+
+
+.box5{position: relative; top: 0; left: 900px; width: 300px; height: 200px; background: url(../images/icon4.jpg) no-repeat 200px 100px; padding: 30px;}
+.box5 h1{color: #e50271; font-size: 31px; }
+.box5 p{color: gray; font-size: 14px; line-height: 30px; padding-top: 30px;}
+
+.bottom{position:absolute; bottom: 20px; left: 50%; margin-left: -227.5px; text-align: center; font-size: 12px; color: gray;}
+.bottom p{padding-bottom: 5px;}
+.bottom a img{padding-top: 20px;}
+
+
+
+
